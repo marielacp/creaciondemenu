@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+nav {
+    /*outline: 1px solid blue;*/
+    
+}
+
+ul {
+    /*outline: 1px solid blue;*/
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background:#2e2e2a;
+    line-height: 40px;
+   overflow: auto; /*siempre trabaja junto a float, es para que
+   siga teniendo apariencia de bloque y siga alvergando
+   a los elementos que estan dentro de ul*/
+  
+  }
+
+li {
+    /*display: inline-block;*/
+   /* outline: 1px solid blue;*/
+    width: 100px;
+    text-align: center;
+    float: left;
+}
+
+a {
+    /*outline: 5px solid blue;*/
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+a:hover{
+    background: #f9a91a;
+    color:#000;
+}
